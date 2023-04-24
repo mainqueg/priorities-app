@@ -1,6 +1,7 @@
 import 'styles/globals.css'
 import 'react-toastify/dist/ReactToastify.css'
 
+import { Analytics } from '@vercel/analytics/react';
 import { SessionProvider } from 'next-auth/react'
 import { SWRConfig } from 'swr'
 import { ToastContainer } from 'react-toastify'
@@ -45,6 +46,7 @@ export default function MyApp({
           </GlobalStoreProvider>
         </SWRConfig>
       </ThemeProvider>
+      < Analytics />
     </SessionProvider>
   )
 }
