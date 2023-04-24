@@ -15,7 +15,7 @@ export default function ListReleased() {
 
   return (
     <div>
-      <h2 className="font-bold">Release</h2>
+      <h2 className="font-bold">Released</h2>
       <div className="mt-4 space-y-2">
         {dataFilterAndSort.map((item, index) => (
           <CardReleased key={index} item={item} />

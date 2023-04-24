@@ -24,7 +24,7 @@ export default function CreateForm() {
       <input
         className="form-input"
         type="text"
-        placeholder="Enter a new feature request?"
+        placeholder="Enter a new item request?"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />

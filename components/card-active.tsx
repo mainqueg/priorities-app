@@ -54,7 +54,7 @@ export default function CardActive({ item }: { item: Feature }) {
                 type="button"
                 className="hover:underline"
                 onClick={() => {
-                  if (confirm('Feature will be release. Are you sure?')) {
+                  if (confirm('Item will be release. Are you sure?')) {
                     onPublish(item)
                   }
                 }}
@@ -70,7 +70,7 @@ export default function CardActive({ item }: { item: Feature }) {
                 type="button"
                 className="hover:underline"
                 onClick={() => {
-                  if (confirm('Feature will be removed. Are you sure?')) {
+                  if (confirm('Item will be removed. Are you sure?')) {
                     onRemove(item)
                   }
                 }}
